@@ -1,0 +1,9 @@
+* { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { font-family: Inter, Roboto, Arial, sans-serif; font-size: 10pt; }
+.name { font-weight: 800; font-size: 12pt; line-height: 1.1; }
+.sku { font-weight: 700; font-size: 12pt; color: #666; }
+.col.qr { flex: 0 0 28mm; display:flex; align-items:center; justify-content:center; }
+img.qr { width: 26mm; height: 26mm; }
+.col.text { flex: 1 1 auto; padding-left: 3mm; }
+.pos { margin-left: 3mm; font-weight: 800; font-size: 10pt; color: #fff;
+       background: #777; border-radius: 4mm; padding: 1mm 3mm; }

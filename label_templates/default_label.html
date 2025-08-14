@@ -1,0 +1,10 @@
+<div class="col qr" data-field="qr">
+  {% if qr_png %}
+    <img class="qr" src="data:image/png;base64,{{ qr_png }}">
+  {% endif %}
+</div>
+<div class="col text">
+  <div class="name" data-field="item_name">{{ item_name }}</div>
+  <div class="sku" data-field="item_code">{{ item_code }}</div>
+</div>
+<div class="pos" data-field="position">{{ position }}</div>
