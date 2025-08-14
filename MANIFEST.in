@@ -1,1 +1,2 @@
-recursive-include protype_label_print *.js *.py *.html *.css *.txt
+include requirements.txt
+recursive-include protype_label_print *.py *.json *.js *.css *.html *.md
